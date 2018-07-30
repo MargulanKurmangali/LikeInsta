@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "32719322303",
+    "firebase_url": "https://likeinsta-7264e.firebaseio.com",
+    "project_id": "likeinsta-7264e",
+    "storage_bucket": "likeinsta-7264e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32719322303:android:8f14f654e8d285a4",
+        "android_client_info": {
+          "package_name": "com.example.anonymus.likeinsta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32719322303-tbce5rb3lomnvpavui8p1kufqv17no7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anonymus.likeinsta",
+            "certificate_hash": "c87d3988a6931fe1fe8e5aadf82d63488a8d4a9a"
+          }
+        },
+        {
+          "client_id": "32719322303-bji1ht63q0gus2rh8vt8ujimg2enclqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNgV5YlQmbxL9AzC2fKglUsrMER_MXtJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32719322303-bji1ht63q0gus2rh8vt8ujimg2enclqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

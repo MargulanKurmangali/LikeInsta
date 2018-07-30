@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_post"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anonymus.likeinsta.PostActivity">
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/addimage"
+        android:onClick="imageButtonClicked"
+        android:scaleType="centerCrop" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter name "
+        android:background="@drawable/editshape"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/enterName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Edit description"
+        android:background="@drawable/editshape"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/editDesc"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="submitButtonClicked"
+        android:background="@drawable/editshape"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+
+
+</LinearLayout>
